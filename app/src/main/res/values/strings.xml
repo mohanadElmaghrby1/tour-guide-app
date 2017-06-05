@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">London Tour Guide</string>
+
+    <!--the main activity category-->
+    <!--the food category-->
+    <string name="restaurant_category">Restaurant</string>
+    <!--the food category-->
+    <string name="hotel_category">Hotel</string>
+    <!--the food category-->
+    <string name="hospital_category">Hospital</string>
+    <!--the food category-->
+    <string name="shop_category">Shop</string>
+
+    <!--the hotels -->
+    <!-- four season-->
+    <string name="hotel_fours">Four Seasons</string>
+    <string name="hotel_fours_address">10 Trinity Square, London EC3N 4AJ, UK</string>
+    <string name="hotel_fours_phone">0100</string>
+    <!---->
+    <string name="hotel_mandrin">andarin Oriental</string>
+    <string name="hotel_mandrin_address">166 Knightsbridge, London SW1X 7LA</string>
+    <string name="hotel_mandrin_phone">0200</string>
+    <!---->
+    <string name="hotel_park">Park Plaza</string>
+    <string name="hotel_park_address">1200 Westminster Bridge Rd, Lambeth</string>
+    <string name="hotel_park_phone">0300</string>
+
+</resources>

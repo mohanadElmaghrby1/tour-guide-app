@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:id="@+id/location_img"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        tools:src="@drawable/restaurant_lenoir2"
+        android:paddingLeft="@dimen/list_item_image_padding"
+        android:scaleType="fitCenter"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/location_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Dance Le Noir"
+            style="@style/location_name"/>
+
+        <TextView
+            android:id="@+id/location_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="30-31 Clerkenwell Green, Clerkenwell"
+            style="@style/location_city"/>
+
+        <ImageView
+            android:id="@+id/callImag"
+            android:layout_width="@dimen/callIcon_width_height"
+            android:layout_height="@dimen/callIcon_width_height"
+            android:src="@mipmap/call2"
+            android:paddingLeft="16dp"/>
+
+    </LinearLayout>
+</LinearLayout>

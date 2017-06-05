@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+    tools:context="apps.mohanad.com.londontourguide.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/london"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            style="@style/london_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="london" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorfood"
+            android:onClick="openFoodIntent">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorfood"
+                android:src="@mipmap/food"
+                android:padding="@dimen/activity_main_image_padding" />
+
+            <TextView
+                style="@style/main_activity_category"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/restaurant_category" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorhotel"
+            android:onClick="openHotelIntent">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorhotel"
+                android:src="@mipmap/bed"
+                android:padding="@dimen/activity_main_image_padding"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/hotel_category"
+                style="@style/main_activity_category"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorhospital"
+            android:onClick="openHospitalIntent">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorhospital"
+                android:padding="@dimen/activity_main_image_padding"
+                android:src="@mipmap/health" />
+
+            <TextView
+                style="@style/main_activity_category"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/hospital_category" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorshop"
+            android:onClick="openShopIntent">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorshop"
+                android:padding="@dimen/activity_main_image_padding"
+                android:src="@mipmap/bed" />
+
+            <TextView
+                style="@style/main_activity_category"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/shop_category" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

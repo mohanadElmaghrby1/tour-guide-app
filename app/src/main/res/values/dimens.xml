@@ -1,0 +1,22 @@
+<resources>
+    <!-- Height of each list item -->
+    <dimen name="list_item_height">88dp</dimen>
+    <!--the main activity category text size-->
+    <dimen name="category_text_size">18sp</dimen>
+    <!--the size of london text on image-->
+    <dimen name="london_text_size">45sp</dimen>
+    <!--padding london text-->
+    <dimen name="london_margin">24dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_main_image_padding">20dp</dimen>
+    <!--the main activity layout margin-->
+    <dimen name="layout_margin">16dp</dimen>
+    <!--the main activity gategory images-->
+    <dimen name="category_image_width">80dp</dimen>
+    <!--the list item image padding-->
+    <dimen name="list_item_image_padding">18dp</dimen>
+    <!--the call icon width and height-->
+    <dimen name="callIcon_width_height">40dp</dimen>
+
+
+</resources>

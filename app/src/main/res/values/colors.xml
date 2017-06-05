@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#484848</color>
+
+    <!--the london text color-->
+    <color name="colorlondon">#0a0a0a</color>
+    <!--the main activity  category  text color-->
+    <color name="category_text_color">#1d1d1d</color>
+    <!--the food category color f5cd16 -->
+    <color name="colorfood">#ffea29</color>
+    <!--the hotel category color-->
+    <color name="colorhotel">#fa52a6</color>
+    <!--the Hospital category color  4253f1-->
+    <color name="colorhospital">#4253f1</color>
+    <!--the shop category color 2196F3 CC0000-->
+    <color name="colorshop">#09d48d</color>
+    <!--the restaurants list background color -->
+    <color name="restaurant_list_color">#ffea29</color>
+    <!--the hotel list  background color -->
+    <color name="hotel_list_color">#ff77bb</color>
+    <!--the hospital list  background color -->
+    <color name="hospital_list_color">#f2f4c9</color>
+    <!--the shop list  background color -->
+    <color name="shop_list_color">#08e799</color>
+
+</resources>
